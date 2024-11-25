@@ -1,22 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import ProvaUno from './Componenti/ProvaUno';
+import ProvaClassUno from './Componenti/ProvaClassUno';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       <ProvaClassUno label = "Bottone 1"/>
+       <ProvaUno myurl="https://placecats.com/300/200" />
       </header>
     </div>
   );
